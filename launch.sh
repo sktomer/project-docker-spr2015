@@ -15,7 +15,7 @@
 # $4 => password for new owner
 
 # Launch new container
-docker run -d --name ${1} -p ${2}:22 launch-new
+docker run -d --name ${1} -p ${2}:22 sktomer/centos7_ssh_plus_user_acc
 docker ps -a
 
 sleep 5
